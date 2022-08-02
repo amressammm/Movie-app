@@ -20,8 +20,6 @@ import java.util.Objects;
 @AllArgsConstructor
 
 
-
-
 public class MoviePage {
     @Id
     private int page;
@@ -30,31 +28,6 @@ public class MoviePage {
       @Column(name = "results")
       @CollectionTable(name = "entity_attributes", joinColumns = @JoinColumn(name = "entity_id"))
       private List<Movie> results = new ArrayList<>();
-
-
-
-//    private List<String> results;
-
-
-//    @ElementCollection
-
-//    public MoviePage(int page, List<String> results) {
-//        System.out.println("lllololololo");
-//        this.page = page;
-//        this.results = new ArrayList<String>(results);
-//    }
-
-//    List<Object> availableColors = new ArrayList<Object>();
-
-
-
-
-//    public MoviePage( List results) {
-//
-//        this.results = results;
-//    }
-
-
 
 
 
