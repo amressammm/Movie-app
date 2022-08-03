@@ -1,7 +1,7 @@
 
 # Movie App
 
-A website used to search and get popular movies created using Spring Boot and React.js.
+A web application used to search and get popular movies created using Spring Boot and React.js.
 
 # User stories
 ### User story #1:
